@@ -14,7 +14,7 @@ DEBUG = True  # Enable or disable printing debug information to terminal
 MESSAGES_DELAY = 0.05  # Time to wait after spam message sent
 START_RAID_AFTER_CERTAIN_MESSAGE = False  # Start raid only after sending a message like "@bot_nick start" to chat
 
-longpoll = VkBotLongPoll(vk, club223294742)
+longpoll = VkBotLongPoll(vk, 223294742)
 
 
 def raid(chat_id):
